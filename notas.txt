@@ -1,0 +1,11 @@
+php artisan make:controller NombreControlador; //Crear controlador
+
+
+php artisan make:migration Nombretabla; //crear archivo de tablas
+
+-------------------------------------------------------------------------
+composer install
+php artisan key:generate --ansi
+php artisan migrate
+
+
